@@ -1,0 +1,50 @@
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+
+    .container {
+        padding: 0;
+    }
+
+    .row {
+        display: block;
+    }
+
+
+    .lessons .col {
+        width: 90%;
+        margin: 0 auto 60px;
+    }
+
+    .steps {
+        margin: 0;
+        padding-bottom: 3rem;
+    }
+
+    .steps .col {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .why-us h2 {
+        width: 80%;
+        margin: 3rem auto;
+    }
+
+    .why-us .col-left {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+
+    .why-us .col-right {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+}
